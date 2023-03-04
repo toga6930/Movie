@@ -1,0 +1,29 @@
+.App {
+  font-family: Kranky;
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  background-color: pink;
+  margin: 0;
+  padding: 0;
+}
+.movie {
+  width: 300px;
+  margin: 10px;
+  background-color: rgb(201, 120, 134);
+  color: white;
+  border-radius: 5px;
+}
+.movie img {
+  max-width: 100%;
+  border-radius: 5px;
+}
+.movie-info h4 {
+  font-size: 25px;
+}
+.movie-info span {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
